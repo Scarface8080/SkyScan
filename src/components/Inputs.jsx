@@ -21,9 +21,13 @@ const Inputs = () => {
                        
         </div>
 
-        <div className="flex flex-row w-1/4 items-center justify-center"></div>
-        <button className="text-l font-medium transition ease-out hover:scale-125">°C</button>
-
+        <div className="flex flex-row w-1/4 items-center justify-center">
+        <button className="text-l font-medium transition ease-out hover:scale-125">
+            °C</button>
+            <p className="text-xl font-medium mx-1">|</p>
+            <button className="text-l font-medium transition ease-out hover:scale-125">
+            °F</button>
+        </div>
 
        
       
